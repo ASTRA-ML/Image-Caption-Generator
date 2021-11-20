@@ -7,7 +7,7 @@ from keras.layers import Input, Dense, Dropout, LSTM, Embedding, concatenate, Re
 from keras.preprocessing.sequence import pad_sequences
 from tqdm import tqdm
 # To measure BLEU Score
-from nltk.translate.bleu_score import corpus_bleu
+# from nltk.translate.bleu_score import corpus_bleu
 
 """
 	*Define the CNN model
